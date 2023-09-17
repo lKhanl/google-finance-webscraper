@@ -14,7 +14,7 @@ public class OSDriverConfiguration {
         if (os.equals("Mac OS X")) {
             System.setProperty("webdriver.chrome.driver", "drivers/chromedriver-mac-arm64/chromedriver");
         } else {
-            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver-linux64/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver-win64/chromedriver");
         }
     }
 
